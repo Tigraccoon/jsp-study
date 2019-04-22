@@ -10,5 +10,7 @@ String back_c="#008f8f";
 String title_c="#cccc00";
 String value_c="#bbeeee";
 String bar="#777777";
+String whiteColor = "white";
+String blackColor = "black";
 
 %>
