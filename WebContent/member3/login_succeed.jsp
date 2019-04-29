@@ -40,6 +40,7 @@ Member3DTO userInfo = (Member3DTO)session.getAttribute(userid);
 <p>이메일 : <%=userInfo.getEmail() %></p><br>
 <p>전화번호 : <%=userInfo.getHp() %></p><br>
 <br>
+
 <button id="btnLogout">로그아웃?</button>
 
 </body>

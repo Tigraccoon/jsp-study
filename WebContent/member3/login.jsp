@@ -36,7 +36,7 @@ if(message!=null){
 %>
 <br>
 <span style="color: red;"><%=message%></span>
-<%} %>
+<%} else {out.println("<span style='color:red;'>로그인 하세요!</span>");}%>
 </form>
 
 

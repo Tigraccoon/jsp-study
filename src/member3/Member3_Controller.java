@@ -40,7 +40,6 @@ public class Member3_Controller extends HttpServlet {
 			} else {	//로그인 성공
 				message="로그인 성공~";
 				session.setAttribute("message", message);
-				session.setAttribute("userid", userid);
 				session.setAttribute(userid, dto);
 				page = "/member3/login_succeed.jsp";
 				System.out.println("로그인성공");
